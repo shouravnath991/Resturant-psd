@@ -54,11 +54,12 @@ h1, h2, h3, h4, h5, h6{
     background-size: cover;
     padding: 230px 0;
 }
-.slider_contant h1{
+.slider_contant h1 {
     font-size: 68px;
     color: #fff;
     margin-bottom: 110px;
     position: relative;
+    padding: 0 135px;
 }
 .slider_contant h1::after {
     content: url(img/slider_boder.png);
@@ -132,7 +133,7 @@ h1, h2, h3, h4, h5, h6{
     padding: 80px;
 }
 .ingradient_right h2{
-    font-size: 36px;
+    font-size: 35px;
 }
 .ingradient_right h2::after{
     content: url(img/review_border.png);
@@ -143,6 +144,7 @@ h1, h2, h3, h4, h5, h6{
 }
 .ingradient_img img{
     margin-right: 15px;
+    max-width: 100%;
 }
 /* .......................................ingradient end.................................. */
 
@@ -209,9 +211,6 @@ h1, h2, h3, h4, h5, h6{
     position: absolute;
     top: -50px;
     right: -1px;
-}
-.menu_item_content:nth-child(2){
-    background: red;
 }
 .menu_2{
     margin-right: 0;
